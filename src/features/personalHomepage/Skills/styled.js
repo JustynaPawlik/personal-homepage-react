@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { ReactComponent as BulletIcon } from "./bullet.svg";
+import { SubHeader } from "./../SubHeader";
 
 export const Section = styled.section`
     padding: 32px;
@@ -10,12 +11,6 @@ export const Section = styled.section`
     }
 `;
 
-export const StyledHeader = styled.h2`
-    padding-bottom: 16px;
-    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        padding-bottom: 12px;
-    }
-`;
 
 export const Item = styled.li`
     display: flex;
@@ -53,4 +48,13 @@ export const Bullet = styled(BulletIcon)`
         width: 6px;
         margin-right: 8px;
 }
+`;
+
+export const StyledHeader = styled(SubHeader)`
+    padding-bottom: 16px;
+    border-bottom: 1px solid;
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+            padding-bottom: 12px;
+   
+    }
 `;
