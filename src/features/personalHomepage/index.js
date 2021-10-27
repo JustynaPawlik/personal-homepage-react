@@ -1,3 +1,5 @@
+import { MainInformation } from "./MainInformation";
+
 export const PersonalHomepage = () => (
-    <p>Personal Homepage</p>
+    <MainInformation />
 )
