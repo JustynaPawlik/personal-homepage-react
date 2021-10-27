@@ -6,6 +6,7 @@ export const theme = {
         mineShaftLighter: "#313131",
         boxBackground: "#FFFFFF",
     },
+    boxShadow: "0px -2px 50px rgb(241, 233, 235), 0px 16px 58px rgba(9, 10, 51, 0.03)",
 
 
 breakpoints: {

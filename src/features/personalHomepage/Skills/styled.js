@@ -5,6 +5,9 @@ import { SubHeader } from "./../SubHeader";
 export const Section = styled.section`
     padding: 32px;
     margin-top: 72px;
+    background: ${({ theme }) => theme.colorNames.white};
+    box-shadow: ${({ theme }) => theme.boxShadow};
+    border-radius: ${({ theme }) => theme.borderRadiusSmall};
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin-top: 48px;
         padding: 16px;
