@@ -1,0 +1,1 @@
+export const email = "pawlikjustyna90@wp.pl";
