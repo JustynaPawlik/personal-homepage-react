@@ -1,11 +1,12 @@
 import { MainInformation } from "./MainInformation";
 import { Skills } from "./Skills";
 import { nextSkills, skills } from "./Skills/skills";
+import { Footer } from "./Footer";
 
 export const PersonalHomepage = () => (
     <>
     <MainInformation />
-    <Skills
+            <Skills
                 title="My skillset includes:"
                 skills={skills}
             />
@@ -14,5 +15,6 @@ export const PersonalHomepage = () => (
                 skills={nextSkills}
 
             />
+            <Footer />
             </>
 )
