@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { ReactComponent as EnvelopeIcon } from "./envelope.svg";
+import { ButtonLink } from "../ButtonLink";
 
 export const Wrapper = styled.header`
     display: grid;
@@ -28,7 +29,7 @@ export const Summary = styled.p`
     max-widht: 650px;
 `;
 
-export const StyledButtonLink = styled.button`
+export const StyledButtonLink = styled(ButtonLink)`
     display: inline-flex;
     align-items: center;
     margin-top: 24px;
