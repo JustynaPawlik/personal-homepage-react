@@ -47,6 +47,7 @@ export const List = styled.ul`
 export const Bullet = styled(BulletIcon)`
     margin-right: 16px;
     height: auto;
+    color: ${({ theme }) => theme.colorNames.scienceBlue};
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         width: 6px;
         margin-right: 8px;
