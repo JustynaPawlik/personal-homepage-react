@@ -4,10 +4,11 @@ import { nextSkills, skills } from "./Skills/skills";
 import { Footer } from "./Footer";
 import { Portfolio } from "./Portfolio";
 import { ThemeSwitch } from "../../common/ThemeSwitch";
+import  Container  from "../../common/Container";
 
 export const PersonalHomepage = () => (
-    <>
-     <ThemeSwitch />
+    <Container>
+    <ThemeSwitch />
     <MainInformation />
             <Skills
                 title="My skillset includes:"
@@ -20,5 +21,5 @@ export const PersonalHomepage = () => (
             />
              <Portfolio />
             <Footer />
-            </>
-)
+    </Container>
+);
