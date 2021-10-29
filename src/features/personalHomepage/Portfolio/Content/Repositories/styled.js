@@ -22,6 +22,7 @@ export const Tile = styled.li`
 export const Name = styled.h3`
     font-size: 24px;
     margin: 0;
+    color: ${({ theme }) => theme.colors.tile.header};
 `;
 
 export const Description = styled.p`
@@ -49,4 +50,5 @@ export const LinksValue = styled.dd`
 export const Link = styled.a`
     text-decoration: none;
     padding-bottom: 1px;
+    color: ${({ theme }) => theme.colors.primary};
 `;

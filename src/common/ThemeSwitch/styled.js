@@ -21,7 +21,7 @@ export const Text = styled.span`
     text-transform: uppercase;
     font-weight: bold;
     margin-right: 12px;
-
+    color: ${({ theme }) => theme.colors.textPrimary};
 `;
 
 export const Box = styled.span`

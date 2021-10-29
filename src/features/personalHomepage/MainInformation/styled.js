@@ -21,12 +21,14 @@ export const ThisIs = styled.div`
     font-size: 12px;
     font-weight: bold;
     letter-spacing: initial;
+    color: ${({ theme }) => theme.colors.textPrimary};
 `;
 
 export const Name = styled.h1`
     font-size: 38px;
     font-weight: 900;
     margin: 12px 0 0 0;
+    color: ${({ theme }) => theme.colors.textPrimary};
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 22px;
         margin-top: 8px;
@@ -38,6 +40,7 @@ export const Summary = styled.p`
     margin: 36px 0 0 0;
     line-height: 1.4;
     max-widht: 650px;
+    color: ${({ theme }) => theme.colors.textPrimary};
     @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
         margin-top: 16px;
     }
