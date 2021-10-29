@@ -15,7 +15,7 @@ export const Tile = styled.li`
     padding: 56px;
     margin: 0;
     transition: border-color 0.3s;
-    background: ${({ theme }) => theme.colorNames.white};
+    background: ${({ theme }) => theme.colors.tile.border};
     box-shadow: ${({ theme }) => theme.boxShadow};
 `;
 

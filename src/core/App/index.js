@@ -1,19 +1,22 @@
+import { useSelector } from "react-redux";
 import { ThemeProvider } from "styled-components";
 import { Normalize } from "styled-normalize";
 import { GlobalStyle } from "./GlobalStyle";
 import { PersonalHomepage } from "../../features/personalHomepage";
-import { theme } from "./theme";
+import { selectIsDarkTheme } from "../../common/themeSlice";
+import { themeDark, themeLight } from "./theme";
 import Container from "../../common/Container";
 
-function App() {
+export const App = () => {
+  const isDarkTheme = useSelector(selectIsDarkTheme);
   return (
+    <ThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
     <Container>
-    <ThemeProvider theme={theme}>
       <Normalize />
     <GlobalStyle />
     <PersonalHomepage />
-    </ThemeProvider>
     </Container>
+    </ThemeProvider>
   );
 }
 

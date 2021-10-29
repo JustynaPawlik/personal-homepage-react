@@ -5,7 +5,7 @@ import { SubHeader } from "./../SubHeader";
 export const Section = styled.section`
     padding: 32px;
     margin-top: 72px;
-    background: ${({ theme }) => theme.colorNames.white};
+    background: ${({ theme }) => theme.colors.boxBackground};
     box-shadow: ${({ theme }) => theme.boxShadow};
     border-radius: ${({ theme }) => theme.borderRadiusSmall};
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
@@ -47,7 +47,7 @@ export const List = styled.ul`
 export const Bullet = styled(BulletIcon)`
     margin-right: 16px;
     height: auto;
-    color: ${({ theme }) => theme.colorNames.scienceBlue};
+    color: ${({ theme }) => theme.colors.primary};
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         width: 6px;
         margin-right: 8px;
