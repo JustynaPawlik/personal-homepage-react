@@ -74,7 +74,7 @@ const colorNames = {
             headerLine: colorNames.tundora,
             tile: {
                 border: colorNames.tundora,
-                borderHover: colorNames.bluemine,
+                borderHover: colorNames.blumine,
                 header: colorNames.white,
             },
             themeSwitch: {
