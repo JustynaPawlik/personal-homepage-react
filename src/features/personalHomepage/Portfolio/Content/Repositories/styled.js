@@ -22,7 +22,6 @@ export const Tile = styled.li`
 export const Name = styled.h3`
     font-size: 24px;
     margin: 0;
-    color: ${({ theme }) => theme.colors.tile.header};
 `;
 
 export const Description = styled.p`

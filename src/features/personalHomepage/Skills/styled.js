@@ -18,7 +18,6 @@ export const Section = styled.section`
 export const Item = styled.li`
     display: flex;
     line-height: 1.4;
-    color: ${({ theme }) => theme.colors.textPrimary};
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         line-height: 1.2;
 }
