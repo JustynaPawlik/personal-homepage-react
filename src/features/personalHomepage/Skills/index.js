@@ -1,6 +1,5 @@
 import { Bullet, Item, List, Section, StyledHeader } from "./styled";
 
-
 export const Skills = ({ title, skills }) => (
     <Section>
         <StyledHeader>{title}</StyledHeader>

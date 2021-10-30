@@ -9,7 +9,6 @@ html {
     box-sizing: inherit;
   }
 
-
 body {
   padding-bottom: 108px;
   font-family: "Inter", sans-serif;

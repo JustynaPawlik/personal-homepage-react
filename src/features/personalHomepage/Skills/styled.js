@@ -14,7 +14,6 @@ export const Section = styled.section`
     }
 `;
 
-
 export const Item = styled.li`
     display: flex;
     line-height: 1.4;
@@ -43,7 +42,6 @@ export const List = styled.ul`
         font-size: 14px;
     }
 `;
-
 
 export const Bullet = styled(BulletIcon)`
     margin-right: 16px;
