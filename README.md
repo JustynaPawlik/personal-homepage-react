@@ -2,6 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo 
+https://justynapawlik.github.io/personal-homepage-react/
+
+Used technologies:
+- HTML
+- CSS
+- REACT JS
+- FLEX
+- GRID
+- MEDIA QUERIES
+- IMMUTABILITY
+- ERROR HANDLING
+- CREATE-REACT-APP
+- CUSTOM HOOKS
+- AXIOS
+- STYLED-COMPONENTS
+- REDUX
+- REDUX SAGA
+- WEBPACK
+- REDUX TOOLKIT
 ## Available Scripts
 
 In the project directory, you can run:
