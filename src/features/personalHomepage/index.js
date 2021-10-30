@@ -8,18 +8,19 @@ import  Container  from "../../common/Container";
 
 export const PersonalHomepage = () => (
     <Container>
-    <ThemeSwitch />
-    <MainInformation />
+        <ThemeSwitch />
+        <MainInformation />
+        <main>
             <Skills
-                title="My skillset includes:"
+                title={"My skillset includes: 🛠️"}
                 skills={skills}
             />
             <Skills
-                title="What I want to learn next:"
+                title={"What I want to learn next: 🚀"}
                 skills={nextSkills}
-
             />
-             <Portfolio />
+            <Portfolio />
             <Footer />
+        </main>
     </Container>
-);
+)
