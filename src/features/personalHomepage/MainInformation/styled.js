@@ -7,6 +7,7 @@ export const Wrapper = styled.header`
     grid-template-columns: auto 1fr;
     grid-gap: 64px;
     align-items: center;
+    margin-top: -30px; // that's the height of the theme switcher
     @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
         grid-gap: 32px;
     }
@@ -27,6 +28,7 @@ export const Name = styled.h1`
     font-size: 38px;
     font-weight: 900;
     margin: 12px 0 0 0;
+    color: ${({ theme }) => theme.colors.textPrimary};
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         font-size: 22px;
         margin-top: 8px;
@@ -50,7 +52,7 @@ export const Summary = styled.p`
 export const StyledButtonLink = styled(ButtonLink)`
     display: inline-flex;
     align-items: center;
-    margin-top: 24px;
+    margin-top: 32px;
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         margin-top: 24px;
 }
