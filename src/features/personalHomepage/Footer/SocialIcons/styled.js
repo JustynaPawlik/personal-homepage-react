@@ -21,6 +21,9 @@ export const Item = styled.li`
 
 export const Link = styled.a`
   transition: color 0.3s;
+  color: ${({ theme }) => theme.colors.textPrimary};
+  &:hover {
+    color: ${({ theme }) => theme.colors.primary};
   }
 `;
 
