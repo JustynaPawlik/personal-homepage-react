@@ -25,15 +25,16 @@ export const Item = styled.li`
 
 export const List = styled.ul`
     display: grid;
+    padding: 0;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 8px 32px;
     list-style: none;
-    margin-top: 32 px;
+    margin-top: 32px;
     @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
         grid-template-columns: repeat(2, 1fr);
     } 
     @media (max-width: ${({ theme }) =>
-      theme.breakpoints.tabletHorizontalMax}px) {
+      theme.breakpoints.tabletVerticalMax}px) {
     font-size: 16px;
     }
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
@@ -56,7 +57,7 @@ export const Bullet = styled(BulletIcon)`
 
 export const StyledHeader = styled(SubHeader)`
     padding-bottom: 16px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid ${({ theme }) => theme.colors.headerLine};
     @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
             padding-bottom: 12px;
    
