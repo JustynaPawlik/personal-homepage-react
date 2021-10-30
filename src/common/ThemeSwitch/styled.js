@@ -21,19 +21,23 @@ export const Text = styled.span`
     text-transform: uppercase;
     font-weight: bold;
     margin-right: 12px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        display: none;
 `;
 
 export const Box = styled.span`
-display: flex;
-width: 48px;
+    display: flex;
+    width: 48px;
     background: ${({ theme }) => theme.colors.themeSwitch.background};
     border: 1px solid;
-    padding: 2px;
+    padding: 3px;
     border-radius: 12px;
 `;
 
 export const IconWrapper = styled.span`
     display:flex;
+    padding: 3px;
     background: currentColor;
     border-radius: 50%;
     transition: transform 0.3s;
