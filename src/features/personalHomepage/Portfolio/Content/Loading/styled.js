@@ -8,13 +8,23 @@ const rotate = keyframes`
 `;
 
 export const Wrapper = styled.div`
-text-align: center;
-margin-top: 88px;
-font-size: 20px;
+    text-align: center;
+    margin-top: 88px;
+    font-size: 20px;
+    display: grid;
+    justify-items: center;
+    color: ${({ theme }) => theme.colors.textPrimary};
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        font-size: 17px;
+        margin-top: 32px;
 `;
 
 export const StyledSpinner = styled(Spinner)`
     margin-top: 48px;
     animation: ${rotate} 1s linear infinite;
     height: auto;
+    color: ${({ theme }) => theme.colors.primary};
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        margin-top: 32px;
+        width: 60px;
 `;
