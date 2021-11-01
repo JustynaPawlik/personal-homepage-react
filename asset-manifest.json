@@ -1,22 +1,33 @@
 {
   "files": {
-    "main.css": "/personal-homepage-react/static/css/main.a617e044.chunk.css",
-    "main.js": "/personal-homepage-react/static/js/main.5904051c.chunk.js",
-    "main.js.map": "/personal-homepage-react/static/js/main.5904051c.chunk.js.map",
-    "runtime-main.js": "/personal-homepage-react/static/js/runtime-main.11879c7d.js",
-    "runtime-main.js.map": "/personal-homepage-react/static/js/runtime-main.11879c7d.js.map",
-    "static/js/2.416c42c2.chunk.js": "/personal-homepage-react/static/js/2.416c42c2.chunk.js",
-    "static/js/2.416c42c2.chunk.js.map": "/personal-homepage-react/static/js/2.416c42c2.chunk.js.map",
-    "static/js/3.b03b45fd.chunk.js": "/personal-homepage-react/static/js/3.b03b45fd.chunk.js",
-    "static/js/3.b03b45fd.chunk.js.map": "/personal-homepage-react/static/js/3.b03b45fd.chunk.js.map",
+    "main.css": "/personal-homepage-react/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/personal-homepage-react/static/js/main.548b3c32.chunk.js",
+    "main.js.map": "/personal-homepage-react/static/js/main.548b3c32.chunk.js.map",
+    "runtime-main.js": "/personal-homepage-react/static/js/runtime-main.d1c5cef0.js",
+    "runtime-main.js.map": "/personal-homepage-react/static/js/runtime-main.d1c5cef0.js.map",
+    "static/js/2.074a5ac9.chunk.js": "/personal-homepage-react/static/js/2.074a5ac9.chunk.js",
+    "static/js/2.074a5ac9.chunk.js.map": "/personal-homepage-react/static/js/2.074a5ac9.chunk.js.map",
+    "static/js/3.0f020b1f.chunk.js": "/personal-homepage-react/static/js/3.0f020b1f.chunk.js",
+    "static/js/3.0f020b1f.chunk.js.map": "/personal-homepage-react/static/js/3.0f020b1f.chunk.js.map",
     "index.html": "/personal-homepage-react/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/personal-homepage-react/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.416c42c2.chunk.js.LICENSE.txt": "/personal-homepage-react/static/js/2.416c42c2.chunk.js.LICENSE.txt"
+    "static/css/main.6dea0f05.chunk.css.map": "/personal-homepage-react/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.074a5ac9.chunk.js.LICENSE.txt": "/personal-homepage-react/static/js/2.074a5ac9.chunk.js.LICENSE.txt",
+    "static/media/JustynaPawlikProfile.0698e984.jpg": "/personal-homepage-react/static/media/JustynaPawlikProfile.0698e984.jpg",
+    "static/media/bullet.65fee71d.svg": "/personal-homepage-react/static/media/bullet.65fee71d.svg",
+    "static/media/envelope.6e2dda49.svg": "/personal-homepage-react/static/media/envelope.6e2dda49.svg",
+    "static/media/facebook.256a8e27.svg": "/personal-homepage-react/static/media/facebook.256a8e27.svg",
+    "static/media/github.d997abbf.svg": "/personal-homepage-react/static/media/github.d997abbf.svg",
+    "static/media/github.ecae2759.svg": "/personal-homepage-react/static/media/github.ecae2759.svg",
+    "static/media/linkedin.1bf7280c.svg": "/personal-homepage-react/static/media/linkedin.1bf7280c.svg",
+    "static/media/spinner.120dff0a.svg": "/personal-homepage-react/static/media/spinner.120dff0a.svg",
+    "static/media/sun.c18d6053.svg": "/personal-homepage-react/static/media/sun.c18d6053.svg",
+    "static/media/twitter.e5dc99c5.svg": "/personal-homepage-react/static/media/twitter.e5dc99c5.svg",
+    "static/media/warning.900851e0.svg": "/personal-homepage-react/static/media/warning.900851e0.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.11879c7d.js",
-    "static/js/2.416c42c2.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.5904051c.chunk.js"
+    "static/js/runtime-main.d1c5cef0.js",
+    "static/js/2.074a5ac9.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.548b3c32.chunk.js"
   ]
 }
